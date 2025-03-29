@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmark - Engineering & Project Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Landmark</h1>
+        <p>Engineering Consultancy & Project Management</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Landmark is a leading engineering consultancy and project management firm specializing in retaining wall design, construction quality control, and non-destructive testing services.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <p>We offer expertise in geotechnical engineering, construction quality control, NDT for roads, pavements, and bridges, and retaining wall design.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Our Projects</h2>
+            <p>We have successfully delivered projects in the US and Iraq, ensuring high-quality engineering solutions for infrastructure and construction challenges.</p>
+            <img src="projects.jpg" alt="Our Projects">
+        </section>
+        <section id="team" class="section">
+            <h2>Meet Our Team</h2>
+            <p>Our team consists of experienced engineers and project managers dedicated to delivering the best solutions.</p>
+            <img src="team.jpg" alt="Our Team">
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: contact@landmark.com | Phone: +1-234-567-890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Landmark. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
